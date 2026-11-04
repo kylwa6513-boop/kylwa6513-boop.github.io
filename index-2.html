@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081323">
+  <meta name="description" content="App Together - صفحة الإعلانات والعروض">
+  <title>App Together</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; padding: 24px;
+      display: grid; place-items: center;
+      font-family: Tahoma, Arial, sans-serif;
+      color: #f4f8ff;
+      background: radial-gradient(circle at top, #17385c 0, #0b1b30 42%, #06101e 100%);
+    }
+    .card {
+      width: min(100%, 440px); padding: 30px 24px;
+      border: 1px solid rgba(120,190,255,.22);
+      border-radius: 26px; text-align: center;
+      background: rgba(13,34,57,.88);
+      box-shadow: 0 22px 70px rgba(0,0,0,.35);
+    }
+    .logo {
+      width: 76px; height: 76px; margin: 0 auto 18px;
+      display: grid; place-items: center; border-radius: 23px;
+      color: #061323; font-size: 30px; font-weight: 900;
+      background: linear-gradient(135deg,#54d5ff,#2586ed);
+      box-shadow: 0 8px 28px rgba(44,166,255,.28);
+    }
+    h1 { margin: 0 0 10px; font-size: 29px; }
+    .sub { margin: 0 auto 26px; color: #b9cce0; line-height: 1.9; font-size: 15px; }
+    .ad-button {
+      display: block; width: 100%; padding: 16px 18px;
+      border-radius: 15px; color: #061323; font-size: 17px;
+      font-weight: bold; text-decoration: none;
+      background: linear-gradient(110deg,#53d5ff,#48a5ff);
+      box-shadow: 0 9px 25px rgba(46,158,255,.2);
+      transition: transform .15s ease, filter .15s ease;
+    }
+    .ad-button:active { transform: scale(.98); filter: brightness(.94); }
+    .note { margin: 17px 0 0; color: #91a9c2; font-size: 12px; line-height: 1.8; }
+    footer { margin-top: 25px; color: #718ba6; font-size: 11px; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="logo" aria-hidden="true">AT</div>
+    <h1>App Together</h1>
+    <p class="sub">أهلًا بيك! اضغط على الزر بالأسفل للانتقال إلى العرض الإعلاني.</p>
+    <a class="ad-button"
+       href="https://uplcm.com/4/12189069"
+       target="_blank"
+       rel="noopener noreferrer">
+      📢 الانتقال إلى الإعلان
+    </a>
+    <p class="note">سيتم فتح صفحة الإعلان في نافذة جديدة. ظهور العروض وتوفرها يخضعان لشبكة الإعلانات.</p>
+    <footer>© App Together</footer>
+  </main>
+</body>
+</html>
